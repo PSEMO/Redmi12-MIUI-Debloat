@@ -2,7 +2,7 @@
 
 This is an guide on how to debloat your Redmi 12 phone using Linux
 
----SETUP---
+<h2>---SETUP---</h2>
 
 Linux setup:
 $ sudo apt-get install android-tools-adb
@@ -10,7 +10,7 @@ $ sudo apt-get install android-tools-adb
 Setup your Xiaomi Phone:
 Enable Developer options > go to developer options > enable "USB debugging"
 
----COMMANDS---
+<h2>---COMMANDS---</h2>
 
 shows all connected adb devices
 $ adb devices
@@ -27,7 +27,7 @@ $ adb shell pm list packages
 installs the given .apk file to the device
 $ adb install "filename"
 
----GUIDE---
+<h2>---GUIDE---</h2>
 
 This will show installed packages
 $ adb shell pm list packages
